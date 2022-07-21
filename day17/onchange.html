@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Select one of the favourite car from the given list to display. </p>
+<select id="Choose" onchange="Func_a()">
+<option value="mercedes">mercedes
+<option value="BMW">BMW
+<option value="RangRover">RangRover
+<option value="Pineapple">Tesla
+</select>
+<p>Choose any one car and buy it.</p>
+<p id="demo1"></p>
+<script>
+function Func_a() {
+varx_ip = document.getElementById("Choose").value;
+document.getElementById("demo1").innerHTML = "Select from the given car list " + x_ip;
+}
+</script>
+</body>
+</html>
